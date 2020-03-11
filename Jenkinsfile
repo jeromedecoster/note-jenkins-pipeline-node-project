@@ -29,7 +29,7 @@ pipeline {
         withCredentials([string(credentialsId: 'github-token ', variable: 'TOKEN')]) {
           sh "git branch"
           sh "git branch -a"
-          sh "git log --format='%H' --max-count=1 master"
+          sh "git log --format='%H' --max-count=1 origin/master"
         }
       }
     }
