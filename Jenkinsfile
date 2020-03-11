@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        slackSend color: 'good', message: 'Test then *Jenkinsfile*'
+        slackSend color: 'good', message: 'Test the *Jenkinsfile*'
       }
     }
   }
