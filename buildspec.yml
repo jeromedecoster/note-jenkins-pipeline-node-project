@@ -6,6 +6,8 @@ phases:
       nodejs: 12
     commands:
       - echo install 2...
+      - node -v
+      - npm -v
   pre_build:
     commands:
       - echo pre_build...
