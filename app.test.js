@@ -7,7 +7,7 @@ describe('/add', () => {
     it('success', (done) => {
         const a = 2
         const b = 4
-        const expected = 7
+        const expected = 8
 
         request(app)
             .post('/add')
