@@ -8,7 +8,7 @@ describe('/add', () => {
         const a = 2
         const b = 4
         // final test cool
-        const expected = 7
+        const expected = 8
 
         // here 3
         request(app)
