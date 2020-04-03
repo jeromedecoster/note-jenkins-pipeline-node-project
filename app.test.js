@@ -7,7 +7,7 @@ describe('/add', () => {
     it('success', (done) => {
         const a = 2
         const b = 4
-        // a comment
+        // a better comment
         const expected = 6
 
         request(app)
