@@ -8,8 +8,8 @@ describe('/add', () => {
         const a = 2
         const b = 4
         // final test cool
-        const expected = 77
-
+        const expected = 6
+        
         // here 3
         request(app)
             .post('/add')
